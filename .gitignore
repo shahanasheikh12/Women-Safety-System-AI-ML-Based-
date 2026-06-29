@@ -1,0 +1,26 @@
+# Gemini Agent Files & Logs
+.gemini/
+brain/
+scratch/
+task.md
+walkthrough.md
+implementation_plan.md
+*.log
+
+# Node/JS dependencies
+**/node_modules/
+**/.expo/
+**/dist/
+**/.expo-shared/
+**/web-build/
+
+# Python virtual environment & cache
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+**/.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
