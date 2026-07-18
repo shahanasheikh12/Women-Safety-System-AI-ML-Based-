@@ -5,8 +5,8 @@ import { createClient } from '@supabase/supabase-js';
 // ─────────────────────────────────────────────────────────────
 // Environment variables (set in .env or app.config.ts)
 // ─────────────────────────────────────────────────────────────
-const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL ?? '';
-const supabaseAnonKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY ?? '';
+const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL || 'https://placeholder-project.supabase.co';
+const supabaseAnonKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || 'placeholder-anon-key-string-long-enough-to-pass-validation';
 
 // ─────────────────────────────────────────────────────────────
 // TypeScript Database Interface — mirrors the SQL schema
